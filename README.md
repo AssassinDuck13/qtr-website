@@ -21,4 +21,4 @@ responsive design, and clean UI development.
 https://quick-tech-repairs.netlify.app/
 
 ## Source Code
-[GitHub Repository Link]
+https://github.com/AssassinDuck13/qtr-website
