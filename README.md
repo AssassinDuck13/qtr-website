@@ -1,4 +1,4 @@
-# QTR_website
+# qtr-website
 
 ## Overview
 This is a responsive website built using HTML, CSS, and JavaScript. 
