@@ -36,13 +36,13 @@
 
     <main>
       <!-- Contact form or details will go here -->
-      <form class="contact-form" id="contact-form">
+      <form class="contact-form" id="contact-form" autocomplete="off">
         <label for="name">Name</label>
         <input
           type="text"
           id="name"
           name="name"
-          placeholder="Your name"
+          placeholder="Enter your name"
           required
         />
 
@@ -51,7 +51,26 @@
           type="text"
           id="email"
           name="email"
-          placeholder="Your email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="facility">Facility Name</label>
+        <select id="facility" name="facility" class="select" required>
+          <option value="" disabled selected style="color: #888">
+            Select your facility
+          </option>
+          <option value="Chrismar">Chrismar (Bellville)</option>
+          <option value="Klaradyn">Klaradyn (Brackenfell)</option>
+          <option value="Othello">Othello (Brackenfell)</option>
+        </select>
+
+        <label for="house">House Number</label>
+        <input
+          type="text"
+          id="house"
+          name="house"
+          placeholder="Enter your house number"
           required
         />
 
@@ -60,7 +79,7 @@
           type="text"
           id="subject"
           name="subject"
-          placeholder="Subject"
+          placeholder="Enter your Tech problem"
           required
         />
 
@@ -68,7 +87,7 @@
         <textarea
           id="message"
           name="message"
-          placeholder="Your message..."
+          placeholder="Describe your issue..."
           required
         ></textarea>
 
@@ -76,6 +95,12 @@
 
         <button type="submit" class="send-btn">Send</button>
       </form>
+
+      <div></div>
+      <p class="service-cost">
+        All services have a standard callout fee of R200, excluding service
+        costs.
+      </p>
     </main>
 
     <!-- EmailJS -->

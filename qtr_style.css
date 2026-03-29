@@ -337,6 +337,18 @@ main {
   /* full width of its parent form */
   width: 100%;
   box-sizing: border-box;
+  height: 2.5rem;
+}
+
+.select {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 2.5rem;
+  color: #999;
 }
 
 .contact-form textarea {
@@ -361,10 +373,27 @@ main {
   opacity: 0.9;
 }
 
+.service-cost {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #2e2e2e;
+}
+
+.dark-mode .service-cost {
+  color: #40e0d0;
+}
+
 body.dark-mode .contact-form input[type="text"],
 body.dark-mode .contact-form textarea {
   background: #2e2e2e;
   color: #ffffff;
+  border-color: #40e0d0;
+}
+
+body.dark-mode .select {
+  background: #2e2e2e;
+  color: #ccc;
   border-color: #40e0d0;
 }
 
